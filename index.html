@@ -1,37 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
+    <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  Order Summary
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <main class="flex-container">
+      <article class="flex-container card">
+        <img
+          class="hero-img"
+          src="./assets/images/illustration-hero.svg"
+          alt="Cartoon illustration of a girl wearing headphones and dancing in front of a city skyline background, with music notes floating around"
+        />
+        <div class="flex-container card-content">
+          <h1 class="card-title">Order Summary</h1>
+          <p class="description">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="flex-container plan-tab">
+            <img
+              class="music-icon"
+              src="./assets/images/icon-music.svg"
+              alt="Icon of an eighth note"
+            />
+            <div class="flex-container plan-info">
+              <span class="plan-name">Annual Plan</span>
+              <span class="price">$59.99/year</span>
+            </div>
+            <a href="#" class="change-link">Change</a>
+          </div>
+          <button type="button" class="payment-btn">Proceed to Payment</button>
+          <button type="button" class="cancel-btn">Cancel Order</button>
+        </div>
+      </article>
+    </main>
 
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
-</body>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Leven Carr</a>.
+    </footer>
+  </body>
 </html>
