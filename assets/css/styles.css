@@ -2,6 +2,7 @@
 :root {
   --body-bg-color: hsl(225, 100%, 94%);
   --card-bg-color: hsl(0, 0%, 100%);
+  --card-shadow-color: hsla(224, 23%, 55%, 0.1);
   --tab-bg-color: hsl(225, 100%, 98%);
   --btn-color: hsl(245, 75%, 52%);
   --hover-color: hsl(245, 83%, 68%);
@@ -59,6 +60,7 @@ article.card {
   gap: 0;
   background-color: var(--card-bg-color);
   border-radius: 1.25rem;
+  box-shadow: 0 1.25rem 1.25rem hsla(245, 75%, 52%, 0.15);
 }
 
 img.hero-img {
