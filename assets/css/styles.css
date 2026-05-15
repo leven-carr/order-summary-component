@@ -59,7 +59,7 @@ article.card {
   gap: 0;
   background-color: var(--card-bg-color);
   border-radius: 1.25rem;
-  box-shadow: 0 1.25rem 1.25rem hsla(245, 75%, 52%, 0.15);
+  box-shadow: 0 1.25rem 1.25rem hsla(245, 75%, 52%, 0.1);
 }
 
 img.hero-img {
